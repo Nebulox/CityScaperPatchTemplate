@@ -1,0 +1,35 @@
+/*
+	This is the template, copy and paste this!
+	
+          {
+            "shortDescription": "Your Dungeon Name",
+            "dungeonSize": [5, 10], //the x, y size of the dungeon
+            "dungeon": "PREFIX-YOURDUNGEONNAME",
+            "previewImage": "/interface/scripted/cityscaper/modules/MODNAME/PREFIX-YOURDUNGEONNAME.png",
+            "cost": {
+              "money": 50000,
+              "essence": 10000
+            }
+          }
+*/
+
+[
+  {
+    "op": "add",
+    "path": "/modules/-",
+    "value": {
+      "name": "MODNAME",
+      "config": {
+        "rooms": [
+		  //Paste here!
+		],
+        "prefabs": [
+		  //Paste here!
+		],
+        "dungeons": [
+		  //Paste here!
+        ]
+      }
+    }
+  }
+]

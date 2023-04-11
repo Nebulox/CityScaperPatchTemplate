@@ -1,0 +1,8 @@
+{
+  "author" : "YourUsername",
+  "description" : "YourDescriptionHere",
+  "friendlyName" : "CityScaper - YOURMOD Addon",
+  "name" : "Nebulox_CityScaper_YOURMOD_Addon",
+  "requires" : ["Nebulox_CityScaper"],
+  "version" : "0.0"
+}
