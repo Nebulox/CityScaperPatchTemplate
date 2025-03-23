@@ -1,14 +1,22 @@
 /*
 	This is the template, copy and paste this!
 	
+  If you need a guide, go to: https://steamcommunity.com/workshop/filedetails/discussion/2958989874/597396108583377769/
           {
-            "shortDescription": "Your Dungeon Name",
-            "dungeonSize": [5, 10], //the x, y size of the dungeon
-            "dungeon": "PREFIX-YOURDUNGEONNAME",
-            "previewImage": "/interface/scripted/cityscaper/modules/MODNAME/PREFIX-YOURDUNGEONNAME.png",
-            "cost": {
-              "money": 50000,
-              "essence": 10000
+  	        "shortDescription" : "Room Name",
+            "variant" : "1",
+            "filter" : "S",
+            
+            "dungeon" : "PREFIX-YOURDUNGEONNAME",
+            "previewImage" : "/interface/scripted/cityscaper/modules/YOURMODNAME!!!/YOURDUNGEONNAME.png",
+          
+            "cost" : {
+              "money" : 7500,
+              "upgrademodule" : 1,
+              "pressurisedbeam" : 50,
+              "pressuriseddurasteel" : 50,
+              "pressurisedgirder" : 50,
+              "outpostwall2" : 50
             }
           }
 */
@@ -18,16 +26,16 @@
     "op": "add",
     "path": "/modules/-",
     "value": {
-      "name": "MODNAME",
+      "name": "YOURMODNAME!!!",
       "config": {
         "rooms": [
-		  //Paste here!
-		],
+		      //Paste here!
+		    ],
         "prefabs": [
-		  //Paste here!
-		],
+		      //Paste here!
+		    ],
         "dungeons": [
-		  //Paste here!
+		      //Paste here!
         ]
       }
     }
